@@ -3,7 +3,7 @@ posts_api.rest_output_controller_posts:
   defaults:
     _controller: '\Drupal\posts_api\Controller\DisplayPostsController::showPosts'
     _title: 'Posts'
-    user: 1
+    user_id: 1
   requirements:
     _permission: 'access content'
     user_id: \d+
