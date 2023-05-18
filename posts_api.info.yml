@@ -1,0 +1,5 @@
+name: Posts API
+type: module
+description: 'Fetch posts from 3rd party API.'
+package: custom
+core_version_requirement: ^9 || ^10

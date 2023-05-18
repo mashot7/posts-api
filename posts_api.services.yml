@@ -1,0 +1,8 @@
+services:
+  posts_api.fetch_posts:
+    class: Drupal\posts_api\Services\FetchPostsService
+    arguments: [
+      '@http_client',
+      '@serialization.json',
+      '@logger.factory'
+    ]

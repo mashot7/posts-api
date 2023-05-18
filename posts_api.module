@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function posts_api_theme($existing, $type, $theme, $path) {
+  return [
+    'posts_api_post' => [
+      'variables' => [
+        'userId' => NULL,
+        'id' => NULL,
+        'title' => NULL,
+        'body' => NULL,
+      ],
+    ],
+  ];
+}
